@@ -3,15 +3,12 @@ using namespace std;
 
 int main()
 {
-    
-      std::string myName;
+          std::string myName;
  std::cout << "Введите имя: ";
    std::cin >> myName;
   
-
- std::string Name = "Вячеслав";
-  
-  
+  std::string Name = "Вячеслав";
+   
    if (myName == Name)  
         cout<<"Привет";
       
