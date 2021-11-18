@@ -1,1 +1,16 @@
+#include <iostream>
 
+using namespace std;
+
+int main() {
+double R;
+
+cout<<"Введите число: ";
+cin>>R;
+
+ // Выполняем проверку значений
+        if (R > 7)
+                cout<<"Привет";
+       else // в противном случае, сообщаем пользователю, что что-то пошло не так
+           cout << "Oops, that input is invalid.  Please try again.\n";
+}
